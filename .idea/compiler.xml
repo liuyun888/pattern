@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="pattern-factory" />
         <module name="patternDemo" />
         <module name="pattern-singleton" />
         <module name="pattern-prototype" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="pattern-factory" target="1.8" />
       <module name="pattern-prototype" target="1.8" />
       <module name="pattern-singleton" target="1.8" />
       <module name="patternDemo" target="1.8" />
@@ -19,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pattern-factory" options="-parameters" />
       <module name="pattern-prototype" options="-parameters" />
       <module name="pattern-singleton" options="-parameters" />
       <module name="patternDemo" options="-parameters" />
