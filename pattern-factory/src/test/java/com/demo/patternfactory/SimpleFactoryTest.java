@@ -14,7 +14,7 @@ public class SimpleFactoryTest {
 
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, IOException {
         //1.简单工厂
-//        ICourse course = CourseFactory.learn("java");
+//        ICourse course = CourseAbstractFactory.learn("java");
 //
 //        course.record();
 
