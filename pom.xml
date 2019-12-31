@@ -13,7 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>pattern</name>
     <description>Demo project for pattern</description>
-
+    <packaging>pom</packaging>
     <modules>
         <module>pattern-singleton</module>
         <module>pattern-prototype</module>
