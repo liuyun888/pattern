@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/pattern-factory/pattern-factory.iml" filepath="$PROJECT_DIR$/pattern-factory/pattern-factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-prototype/pattern-prototype.iml" filepath="$PROJECT_DIR$/pattern-prototype/pattern-prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-proxy/pattern-proxy.iml" filepath="$PROJECT_DIR$/pattern-proxy/pattern-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-singleton/pattern-singleton.iml" filepath="$PROJECT_DIR$/pattern-singleton/pattern-singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/patternDemo.iml" filepath="$PROJECT_DIR$/patternDemo.iml" />
     </modules>
